@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6EA90FDB-1B53-4537-951E-DC7E9B90F175}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kilimanjaro.RepositorioEF</RootNamespace>
+    <AssemblyName>Kilimanjaro.RepositorioEF</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Context.cs" />
+    <Compile Include="Migrations\201506270602314_InitialMigration.cs" />
+    <Compile Include="Migrations\201506270602314_InitialMigration.Designer.cs">
+      <DependentUpon>201506270602314_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506270631104_SecondMigration.cs" />
+    <Compile Include="Migrations\201506270631104_SecondMigration.Designer.cs">
+      <DependentUpon>201506270631104_SecondMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506270819247_TreeMigration.cs" />
+    <Compile Include="Migrations\201506270819247_TreeMigration.Designer.cs">
+      <DependentUpon>201506270819247_TreeMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201507020023332_loginMigration.cs" />
+    <Compile Include="Migrations\201507020023332_loginMigration.Designer.cs">
+      <DependentUpon>201507020023332_loginMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Repository\AddressRepositoryEF.cs" />
+    <Compile Include="Configuration\MyConfiguration.cs" />
+    <Compile Include="Repository\OdontologistRepositoryEF.cs" />
+    <Compile Include="Repository\PatientRepositoryEF.cs" />
+    <Compile Include="Repository\RecordRepositoryEF.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\RecordStatusRepositoryEF.cs" />
+    <Compile Include="Repository\BackyardTypeRepositoryEF.cs" />
+    <Compile Include="Repository\OdontologistTypeRepositoryEF.cs" />
+    <Compile Include="Repository\UserTypeRepositoryEF.cs" />
+    <Compile Include="Repository\FederativeUnitRepositoryEF.cs" />
+    <Compile Include="Repository\UserRepositoryEF.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kilimanjaro.Dominio\Kilimanjaro.Domain.csproj">
+      <Project>{32cb5754-bcba-493f-bc42-ac7e04d73a3e}</Project>
+      <Name>Kilimanjaro.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201506270602314_InitialMigration.resx">
+      <DependentUpon>201506270602314_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506270631104_SecondMigration.resx">
+      <DependentUpon>201506270631104_SecondMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506270819247_TreeMigration.resx">
+      <DependentUpon>201506270819247_TreeMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201507020023332_loginMigration.resx">
+      <DependentUpon>201507020023332_loginMigration.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

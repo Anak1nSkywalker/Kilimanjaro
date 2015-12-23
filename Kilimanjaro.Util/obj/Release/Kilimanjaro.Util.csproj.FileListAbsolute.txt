@@ -1,0 +1,14 @@
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\obj\Release\Kilimanjaro.Util.csprojResolveAssemblyReference.cache
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\bin\Release\Kilimanjaro.Util.dll.config
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\bin\Release\Kilimanjaro.Util.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\bin\Release\Kilimanjaro.Util.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\bin\Release\EntityFramework.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\bin\Release\Kilimanjaro.RepositorioEF.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\bin\Release\Kilimanjaro.Dominio.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\bin\Release\Kilimanjaro.RepositorioEF.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\bin\Release\EntityFramework.xml
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\bin\Release\Kilimanjaro.Dominio.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\obj\Release\Kilimanjaro.Util.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Util\obj\Release\Kilimanjaro.Util.pdb

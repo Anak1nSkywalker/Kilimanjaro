@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kilimanjaro.Domain", "Kilimanjaro.Dominio\Kilimanjaro.Domain.csproj", "{32CB5754-BCBA-493F-BC42-AC7E04D73A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kilimanjaro.RepositoryEF", "Kilimanjaro.RepositorioEF\Kilimanjaro.RepositoryEF.csproj", "{6EA90FDB-1B53-4537-951E-DC7E9B90F175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kilimanjaro.Application", "Kilimanjaro.Aplicacao\Kilimanjaro.Application.csproj", "{442640F5-9323-414C-B2C2-EDD6E4FF1803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kilimanjaro.UI.Web", "Kilimanjaro.UI.Web\Kilimanjaro.UI.Web.csproj", "{2F4BABDF-89DF-47FB-A640-1BC76D1A10A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kilimanjaro.Util", "Kilimanjaro.Util\Kilimanjaro.Util.csproj", "{06741C25-7057-4193-85A8-C0CCD8BD9CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWCFWebService", "FirstWCFWebService\FirstWCFWebService.csproj", "{591DF475-ACEC-4E9E-898B-CB8720E4670D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{5BAC5654-1491-43BD-9F95-6C2431265BE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{591DF475-ACEC-4E9E-898B-CB8720E4670D} = {591DF475-ACEC-4E9E-898B-CB8720E4670D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32CB5754-BCBA-493F-BC42-AC7E04D73A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CB5754-BCBA-493F-BC42-AC7E04D73A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CB5754-BCBA-493F-BC42-AC7E04D73A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CB5754-BCBA-493F-BC42-AC7E04D73A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA90FDB-1B53-4537-951E-DC7E9B90F175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA90FDB-1B53-4537-951E-DC7E9B90F175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA90FDB-1B53-4537-951E-DC7E9B90F175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA90FDB-1B53-4537-951E-DC7E9B90F175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442640F5-9323-414C-B2C2-EDD6E4FF1803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442640F5-9323-414C-B2C2-EDD6E4FF1803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442640F5-9323-414C-B2C2-EDD6E4FF1803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442640F5-9323-414C-B2C2-EDD6E4FF1803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4BABDF-89DF-47FB-A640-1BC76D1A10A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4BABDF-89DF-47FB-A640-1BC76D1A10A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4BABDF-89DF-47FB-A640-1BC76D1A10A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4BABDF-89DF-47FB-A640-1BC76D1A10A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06741C25-7057-4193-85A8-C0CCD8BD9CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06741C25-7057-4193-85A8-C0CCD8BD9CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06741C25-7057-4193-85A8-C0CCD8BD9CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06741C25-7057-4193-85A8-C0CCD8BD9CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591DF475-ACEC-4E9E-898B-CB8720E4670D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591DF475-ACEC-4E9E-898B-CB8720E4670D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591DF475-ACEC-4E9E-898B-CB8720E4670D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591DF475-ACEC-4E9E-898B-CB8720E4670D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BAC5654-1491-43BD-9F95-6C2431265BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BAC5654-1491-43BD-9F95-6C2431265BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BAC5654-1491-43BD-9F95-6C2431265BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BAC5654-1491-43BD-9F95-6C2431265BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Dominio\bin\Debug\Kilimanjaro.Dominio.dll.config
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Dominio\bin\Debug\Kilimanjaro.Dominio.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Dominio\bin\Debug\Kilimanjaro.Dominio.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Dominio\obj\Debug\Kilimanjaro.Dominio.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Dominio\obj\Debug\Kilimanjaro.Dominio.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Dominio\obj\Debug\Kilimanjaro.Domain.csprojResolveAssemblyReference.cache

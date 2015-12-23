@@ -1,0 +1,17 @@
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace Kilimanjaro.Domain
+{
+    public class FederativeUnit
+    {
+        [Key]
+        public int Id { get; set; }
+
+        public string Acronym { get; set; }
+
+        public string Description { get; set; }
+
+        public virtual IEnumerable<Address> Adress { get; set; }
+    }
+}

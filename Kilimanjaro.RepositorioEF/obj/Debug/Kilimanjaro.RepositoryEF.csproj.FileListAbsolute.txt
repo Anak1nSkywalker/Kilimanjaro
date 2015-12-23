@@ -1,0 +1,16 @@
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Debug\Kilimanjaro.RepositorioEF.dll.config
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Debug\Kilimanjaro.RepositorioEF.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Debug\Kilimanjaro.RepositorioEF.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Debug\EntityFramework.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Debug\Kilimanjaro.Dominio.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Debug\Kilimanjaro.Dominio.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Debug\EntityFramework.xml
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositoryEF.csprojResolveAssemblyReference.cache
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.Migrations.InitialCreate.resources
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.Migrations.migracao1.resources
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.Migrations.migracao100.resources
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositoryEF.csproj.GenerateResource.Cache
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.pdb

@@ -1,0 +1,11 @@
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Dominio\bin\Release\Kilimanjaro.Dominio.dll.config
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Dominio\bin\Release\Kilimanjaro.Dominio.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Dominio\bin\Release\Kilimanjaro.Dominio.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Dominio\obj\Release\Kilimanjaro.Dominio.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Dominio\obj\Release\Kilimanjaro.Dominio.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Dominio\bin\Release\Kilimanjaro.Dominio.dll.config
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Dominio\bin\Release\Kilimanjaro.Dominio.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Dominio\bin\Release\Kilimanjaro.Dominio.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Dominio\obj\Release\Kilimanjaro.Dominio.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Dominio\obj\Release\Kilimanjaro.Dominio.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.Dominio\obj\Release\Kilimanjaro.Domain.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\obj\Debug\Kilimanjaro.Aplicacao.csprojResolveAssemblyReference.cache
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\bin\Debug\Kilimanjaro.Aplicacao.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\bin\Debug\Kilimanjaro.Aplicacao.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\bin\Debug\Kilimanjaro.Dominio.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\bin\Debug\Kilimanjaro.RepositorioEF.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\bin\Debug\EntityFramework.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\bin\Debug\Kilimanjaro.Dominio.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\bin\Debug\Kilimanjaro.RepositorioEF.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\bin\Debug\EntityFramework.xml
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\obj\Debug\Kilimanjaro.Aplicacao.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro.Aplicacao\obj\Debug\Kilimanjaro.Aplicacao.pdb
