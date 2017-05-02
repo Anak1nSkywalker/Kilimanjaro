@@ -31,3 +31,17 @@ C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kili
 C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Release\Kilimanjaro.RepositorioEF.Migrations.SecondMigration.resources
 C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Release\Kilimanjaro.RepositorioEF.Migrations.TreeMigration.resources
 C:\Users\John\Documents\Visual Studio 2012\Projects\Kilimanjaro\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Release\Kilimanjaro.RepositorioEF.Migrations.loginMigration.resources
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Release\Kilimanjaro.RepositorioEF.dll
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Release\Kilimanjaro.RepositorioEF.pdb
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Release\EntityFramework.dll
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Release\Kilimanjaro.Dominio.dll
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Release\Kilimanjaro.Dominio.pdb
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Release\Kilimanjaro.Dominio.dll.config
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Release\EntityFramework.xml
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Release\Kilimanjaro.RepositoryEF.csprojResolveAssemblyReference.cache
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Release\Kilimanjaro.RepositorioEF.Migrations.InitialCreate.resources
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Release\Kilimanjaro.RepositoryEF.csproj.GenerateResource.Cache
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Release\Kilimanjaro.RepositorioEF.dll
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Release\Kilimanjaro.RepositorioEF.pdb

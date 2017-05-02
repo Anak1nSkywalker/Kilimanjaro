@@ -35,6 +35,7 @@ namespace Kilimanjaro.RepositoryEF
             }
             else
             {
+                entity.CreationDate = DateTime.Now;
                 context.Patients.Add(entity);
             }
 

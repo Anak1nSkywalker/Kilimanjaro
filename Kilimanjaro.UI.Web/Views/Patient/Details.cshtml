@@ -1,13 +1,13 @@
 ﻿@model Kilimanjaro.Domain.Patient
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detalhes";
 }
 
-<h2>Details</h2>
+<h2>Detalhes</h2>
 
 <div>
-    <h4>Patient</h4>
+    <h4>Paciente</h4>
 	<hr />
     <dl class="dl-horizontal">
         <dt>
@@ -22,16 +22,21 @@
             @Html.DisplayNameFor(model => model.Gender)
         </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Gender)
-        </dd>
+        @if (Model.Gender  == "M")
+        {
+            <dd>Masculino</dd>
+        }
+        else
+        {
+            <dd>Feminino</dd>
+        }
 
         <dt>
             @Html.DisplayNameFor(model => model.Birthdate)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Birthdate)
+            @Html.Raw(Model.Birthdate.ToString("dd/MM/yyyy"))            
         </dd>
 
         <dt>
@@ -59,35 +64,19 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.PrimaryDdd)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.PrimaryDdd)
-        </dd>
-
-        <dt>
             @Html.DisplayNameFor(model => model.PrimaryFone)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.PrimaryFone)
+            @Html.DisplayFor(model => model.PrimaryDdd) @Html.DisplayFor(model => model.PrimaryFone)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.SecundaryDdd)
+             @Html.DisplayNameFor(model => model.SecundaryFone)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.SecundaryDdd)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.SecundaryFone)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.SecundaryFone)
+            @Html.DisplayFor(model => model.SecundaryDdd) @Html.DisplayFor(model => model.SecundaryFone)
         </dd>
 
         <dt>
@@ -110,13 +99,20 @@
             @Html.DisplayNameFor(model => model.LastChangeDate)
         </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.LastChangeDate)
-        </dd>
+        @if (Model.LastChangeDate != null)
+        {
+            <dd>
+                @Html.DisplayFor(model => model.LastChangeDate)
+            </dd>
+        }
+        else
+        {
+            <dd>-</dd>
+        }
 
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Voltar", "Index")
 </p>
