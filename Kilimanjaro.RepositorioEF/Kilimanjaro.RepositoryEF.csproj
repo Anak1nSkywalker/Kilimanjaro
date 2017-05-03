@@ -70,10 +70,28 @@
     <Compile Include="Migrations\201705021924458_InsertNulls.Designer.cs">
       <DependentUpon>201705021924458_InsertNulls.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705031510025_NewCustomerTable.cs" />
+    <Compile Include="Migrations\201705031510025_NewCustomerTable.Designer.cs">
+      <DependentUpon>201705031510025_NewCustomerTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705031703078_newField.cs" />
+    <Compile Include="Migrations\201705031703078_newField.Designer.cs">
+      <DependentUpon>201705031703078_newField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705031711011_newMigracion.cs" />
+    <Compile Include="Migrations\201705031711011_newMigracion.Designer.cs">
+      <DependentUpon>201705031711011_newMigracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705031732457_migmig.cs" />
+    <Compile Include="Migrations\201705031732457_migmig.Designer.cs">
+      <DependentUpon>201705031732457_migmig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Repository\AddressRepositoryEF.cs" />
     <Compile Include="Configuration\MyConfiguration.cs" />
+    <Compile Include="Repository\VehicleRepositoryEF.cs" />
     <Compile Include="Repository\OdontologistRepositoryEF.cs" />
+    <Compile Include="Repository\CustomerRepositoryEF.cs" />
     <Compile Include="Repository\PatientRepositoryEF.cs" />
     <Compile Include="Repository\RecordRepositoryEF.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -113,6 +131,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705021924458_InsertNulls.resx">
       <DependentUpon>201705021924458_InsertNulls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705031510025_NewCustomerTable.resx">
+      <DependentUpon>201705031510025_NewCustomerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705031703078_newField.resx">
+      <DependentUpon>201705031703078_newField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705031711011_newMigracion.resx">
+      <DependentUpon>201705031711011_newMigracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705031732457_migmig.resx">
+      <DependentUpon>201705031732457_migmig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

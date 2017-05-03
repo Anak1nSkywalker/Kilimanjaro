@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationVehicle.cs" />
+    <Compile Include="ApplicationCustomer.cs" />
     <Compile Include="Constructors\ConstructorApplication.cs" />
     <Compile Include="ApplicationAddress.cs" />
     <Compile Include="ApplicationOdontologist.cs" />

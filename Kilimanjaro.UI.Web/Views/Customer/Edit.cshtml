@@ -1,0 +1,78 @@
+﻿@model Kilimanjaro.Domain.Customer
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+<h2>Editar</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Cliente</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, "Nome:", new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.TextBoxFor(model => model.Name, new { @class = "form-control", @placeholder = "Nome" })
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>            
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Birthdate, "Data de Nascimento:", new { @class = "control-label col-md-2" })
+            <div class="col-md-3">
+                @Html.TextBoxFor(model => model.Birthdate, new { @type = "date", @Value = Model.Birthdate.ToString("yyyy-MM-dd"), @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Birthdate)
+            </div>
+            @Html.LabelFor(model => model.Cpf, "CPF:", new { @class = "control-label col-md-1" })
+            <div class="col-md-2">
+                @Html.TextBoxFor(model => model.Cpf, new { @type = "number", @class = "form-control", @placeholder = "CPF" })
+                @Html.ValidationMessageFor(model => model.Cpf)
+            </div>            
+        </div>       
+        <div class="form-group">
+            @Html.LabelFor(model => model.Fone, "Telefone", new { @class = "control-label col-md-2" })
+            <div class="col-md-1">
+                @Html.TextBoxFor(model => model.Ddd, new { @type = "number", @class = "form-control", @placeholder = "DDD" })
+                @Html.ValidationMessageFor(model => model.Ddd)
+            </div>
+            <div class="col-md-2">
+                @Html.TextBoxFor(model => model.Fone, new { @type = "number", @class = "form-control", @placeholder = "Telefone 1" })
+                @Html.ValidationMessageFor(model => model.Fone)
+            </div>
+            @Html.LabelFor(model => model.Email, "Email:", new { @class = "control-label col-md-1" })
+            <div class="col-md-3">
+                @Html.TextBoxFor(model => model.Email, new { @type = "email", @class = "form-control", @placeholder = "Email" })
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Password, "Senha", new { @class = "control-label col-md-2" })
+            <div class="col-md-3">
+                @Html.PasswordFor(model => model.Password, new { @class = "form-control", @placeholder = "Senha" })
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.ConfirmationPassword, "Confirmação de Senha", new { @class = "control-label col-md-2" })
+            <div class="col-md-3">
+                @Html.PasswordFor(model => model.ConfirmationPassword, new { @class = "form-control", @placeholder = "Confirmação de Senha" })
+                @Html.ValidationMessageFor(model => model.ConfirmationPassword)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Savar Edição" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Voltar", "Index")
+</div>

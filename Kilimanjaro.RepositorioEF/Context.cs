@@ -27,7 +27,8 @@ namespace Kilimanjaro.RepositoryEF
         public DbSet<RecordStatus> RecordStatuss { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<UserType> UserTypes { get; set; }
-
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Vehicle> Vehicles { get; set; }
 
         public override int SaveChanges()
         {
@@ -183,6 +184,38 @@ namespace Kilimanjaro.RepositoryEF
             //UserType
             modelBuilder.Entity<UserType>().Property(userType => userType.Id).IsRequired().HasColumnType("int");
             modelBuilder.Entity<UserType>().Property(userType => userType.Description).IsRequired().HasColumnType("varchar").HasMaxLength(30);
+
+            //Customer
+            modelBuilder.Entity<Customer>().Property(customer => customer.Id).IsRequired().HasColumnType("int");
+            modelBuilder.Entity<Customer>().Property(customer => customer.Name).IsRequired().HasColumnType("varchar").HasMaxLength(75);
+            modelBuilder.Entity<Customer>().Property(customer => customer.Birthdate).IsRequired().HasColumnType("date");
+            modelBuilder.Entity<Customer>().Property(customer => customer.Cpf).IsRequired().HasColumnType("int");
+            modelBuilder.Entity<Customer>().Property(customer => customer.Ddd).IsRequired().HasColumnType("int");
+            modelBuilder.Entity<Customer>().Property(customer => customer.Fone).IsRequired().HasColumnType("int");
+            modelBuilder.Entity<Customer>().Property(customer => customer.Email).IsRequired().HasColumnType("varchar").HasMaxLength(40);
+            modelBuilder.Entity<Customer>().Property(customer => customer.Password).IsRequired().HasColumnType("varchar").HasMaxLength(255);
+            modelBuilder.Entity<Customer>().Property(customer => customer.CreationDate).IsRequired().HasColumnType("datetime");
+            modelBuilder.Entity<Customer>().Property(customer => customer.LastChangeDate).HasColumnType("datetime");
+            modelBuilder.Entity<Customer>().Property(customer => customer.Status).IsRequired().HasColumnType("bit");
+            modelBuilder.Entity<Customer>().Property(customer => customer.ServiceProvider).IsRequired().HasColumnType("bit");
+
+            //Vehicle
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.Id).IsRequired().HasColumnType("int");
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.Identification).IsRequired().HasColumnType("varchar").HasMaxLength(7);
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.Chassis).IsRequired().HasColumnType("varchar").HasMaxLength(17);
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.Year).IsRequired().HasColumnType("int");
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.Weight).IsRequired().HasColumnType("float");
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.Height).IsRequired().HasColumnType("float");
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.Width).IsRequired().HasColumnType("float");
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.Length).IsRequired().HasColumnType("float");            
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.UsefulAreaHeight).HasColumnType("float");
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.UsefulAreaWidth).HasColumnType("float");
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.UsefulAreaLength).HasColumnType("float");
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.CreationDate).IsRequired().HasColumnType("datetime");
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.LastChangeDate).HasColumnType("datetime");
+            modelBuilder.Entity<Vehicle>().Property(vehicle => vehicle.Status).IsRequired().HasColumnType("bit");
+
         }
+         
     }
 }

@@ -1,0 +1,81 @@
+﻿@model Kilimanjaro.Domain.Customer
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Cliente</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Birthdate)
+        </dt>
+
+        <dd>
+            @Html.Raw(Model.Birthdate.ToString("dd/MM/yyyy"))            
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cpf)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cpf)
+        </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Fone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ddd) @Html.DisplayFor(model => model.Fone)
+        </dd>
+                
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastChangeDate)
+        </dt>
+
+        @if (Model.LastChangeDate != null)
+        {
+            <dd>
+                @Html.DisplayFor(model => model.LastChangeDate)
+            </dd>
+        }
+        else
+        {
+            <dd>-</dd>
+        }
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

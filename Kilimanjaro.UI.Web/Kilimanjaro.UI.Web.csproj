@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -108,6 +109,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OdontologistController.cs" />
     <Compile Include="Controllers\OdontologistTypeController.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\PatientController.cs" />
     <Compile Include="Controllers\RecordController.cs" />
     <Compile Include="Controllers\RecordStatusController.cs" />
@@ -165,6 +167,13 @@
     <Content Include="Views\Address\Edit.cshtml" />
     <Content Include="Views\Address\Details.cshtml" />
     <Content Include="Views\Address\Delete.cshtml" />
+    <Content Include="Views\Customer\Create.cshtml" />
+    <Content Include="Views\Customer\Delete.cshtml" />
+    <Content Include="Views\Customer\Details.cshtml" />
+    <Content Include="Views\Customer\Edit.cshtml" />
+    <Content Include="Views\Customer\Index.cshtml" />
+    <Content Include="Views\Vehicle\Create.cshtml" />
+    <Content Include="Views\Vehicle\Listing.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

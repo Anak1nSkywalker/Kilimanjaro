@@ -55,5 +55,15 @@ namespace Kilimanjaro.Application
         {
             return new ApplicationUserType(new UserTypeRepositoryEF());
         }
+        
+        public static ApplicationCustomer ApplicationCustomerEF()
+        {
+            return new ApplicationCustomer(new CustomerRepositoryEF());
+        }
+
+        public static ApplicationVehicle ApplicationVehicleEF()
+        {
+            return new ApplicationVehicle(new VehicleRepositoryEF());
+        }
     }
 }

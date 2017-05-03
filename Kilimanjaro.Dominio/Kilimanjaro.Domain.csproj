@@ -71,7 +71,9 @@
     <Compile Include="Contract\ICustonUser.cs" />
     <Compile Include="Contract\IRepository.cs" />
     <Compile Include="Address.cs" />
+    <Compile Include="Vehicle.cs" />
     <Compile Include="Odontologist.cs" />
+    <Compile Include="Customer.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="Record.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
