@@ -24,7 +24,7 @@ namespace Kilimanjaro.RepositoryEF
                 vehicleUpdate.Identification = entity.Identification;
                 vehicleUpdate.Chassis = entity.Chassis;
                 vehicleUpdate.Year = entity.Year;
-                vehicleUpdate.Weight = decimal.Parse(entity.Weight.ToString(), CultureInfo.GetCultureInfo("pt -BR"));
+                vehicleUpdate.Weight = entity.Weight;
                 vehicleUpdate.Height = entity.Height;
                 vehicleUpdate.Width = entity.Width;
                 vehicleUpdate.Length = entity.Length;

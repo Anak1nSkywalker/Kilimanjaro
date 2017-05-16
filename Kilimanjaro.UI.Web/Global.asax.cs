@@ -17,7 +17,6 @@ namespace Kilimanjaro.UI.Web
 
             ModelBinders.Binders.Add(typeof(decimal), new ModelBinder.DecimalModelBinder());
             ModelBinders.Binders.Add(typeof(decimal?), new ModelBinder.DecimalModelBinder());
-
         }
     }
 }

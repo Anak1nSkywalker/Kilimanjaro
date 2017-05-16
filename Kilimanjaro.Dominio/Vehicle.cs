@@ -20,7 +20,7 @@ namespace Kilimanjaro.Domain
         [Display(Name = "Ano")]
         public int Year { get; set; }
         
-        [Display(Name = "Peso")]
+        [Display(Name = "Peso"), DisplayFormat(DataFormatString = "{0:0.00}", ApplyFormatInEditMode = true)]
         public decimal Weight { get; set; }
 
         [Display(Name = "Altura")]
@@ -32,13 +32,13 @@ namespace Kilimanjaro.Domain
         [Display(Name = "Comprimento")]
         public decimal Length { get; set; }
         
-        [Display(Name = "Altura")]
+        [Display(Name = "Area Útil Altura")]
         public decimal? UsefulAreaHeight { get; set; }
 
-        [Display(Name = "Largura")]
+        [Display(Name = "Area Útil Largura")]
         public decimal? UsefulAreaWidth { get; set; }
 
-        [Display(Name = "Comprimento")]
+        [Display(Name = "Area Útil Comprimento")]
         public decimal? UsefulAreaLength { get; set; }
         
         [Display(Name = "Data de Criação")]
@@ -55,7 +55,7 @@ namespace Kilimanjaro.Domain
 
         //public virtual IEnumerable<VehicleType> Record { get; set; }
 
-        public virtual IEnumerable<Customer> Record { get; set; }        
+        //public virtual IEnumerable<Customer> Record { get; set; }        
         
     }
 }
