@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csp
 		{591DF475-ACEC-4E9E-898B-CB8720E4670D} = {591DF475-ACEC-4E9E-898B-CB8720E4670D}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kilimanjaro.Common", "Kilimanjaro.Common\Kilimanjaro.Common.csproj", "{6E227901-E625-48C7-A500-78BE53BA7F8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{5BAC5654-1491-43BD-9F95-6C2431265BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BAC5654-1491-43BD-9F95-6C2431265BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BAC5654-1491-43BD-9F95-6C2431265BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E227901-E625-48C7-A500-78BE53BA7F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E227901-E625-48C7-A500-78BE53BA7F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E227901-E625-48C7-A500-78BE53BA7F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E227901-E625-48C7-A500-78BE53BA7F8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

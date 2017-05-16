@@ -1,0 +1,9 @@
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Common\bin\Debug\netcoreapp1.1\Kilimanjaro.Common.deps.json
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Common\bin\Debug\netcoreapp1.1\Kilimanjaro.Common.dll
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Common\bin\Debug\netcoreapp1.1\Kilimanjaro.Common.pdb
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Common\obj\Debug\netcoreapp1.1\Kilimanjaro.Common.csprojResolveAssemblyReference.cache
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Common\obj\Debug\netcoreapp1.1\Kilimanjaro.Common.Properties.Resources.resources
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Common\obj\Debug\netcoreapp1.1\Kilimanjaro.Common.csproj.GenerateResource.Cache
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Common\obj\Debug\netcoreapp1.1\Kilimanjaro.Common.AssemblyInfo.cs
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Common\obj\Debug\netcoreapp1.1\Kilimanjaro.Common.dll
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Common\obj\Debug\netcoreapp1.1\Kilimanjaro.Common.pdb

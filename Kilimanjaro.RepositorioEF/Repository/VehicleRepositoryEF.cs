@@ -2,6 +2,7 @@
 using Kilimanjaro.Domain.Contract;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace Kilimanjaro.RepositoryEF
@@ -23,7 +24,7 @@ namespace Kilimanjaro.RepositoryEF
                 vehicleUpdate.Identification = entity.Identification;
                 vehicleUpdate.Chassis = entity.Chassis;
                 vehicleUpdate.Year = entity.Year;
-                vehicleUpdate.Weight = entity.Weight;
+                vehicleUpdate.Weight = decimal.Parse(entity.Weight.ToString(), CultureInfo.GetCultureInfo("pt -BR"));
                 vehicleUpdate.Height = entity.Height;
                 vehicleUpdate.Width = entity.Width;
                 vehicleUpdate.Length = entity.Length;

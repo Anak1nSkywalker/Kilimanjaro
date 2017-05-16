@@ -86,6 +86,14 @@
     <Compile Include="Migrations\201705031732457_migmig.Designer.cs">
       <DependentUpon>201705031732457_migmig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705161301502_Nova tabela veiculos.cs" />
+    <Compile Include="Migrations\201705161301502_Nova tabela veiculos.Designer.cs">
+      <DependentUpon>201705161301502_Nova tabela veiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705161449122_FloatToDecimal.cs" />
+    <Compile Include="Migrations\201705161449122_FloatToDecimal.Designer.cs">
+      <DependentUpon>201705161449122_FloatToDecimal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Repository\AddressRepositoryEF.cs" />
     <Compile Include="Configuration\MyConfiguration.cs" />
@@ -143,6 +151,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705031732457_migmig.resx">
       <DependentUpon>201705031732457_migmig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705161301502_Nova tabela veiculos.resx">
+      <DependentUpon>201705161301502_Nova tabela veiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705161449122_FloatToDecimal.resx">
+      <DependentUpon>201705161449122_FloatToDecimal.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

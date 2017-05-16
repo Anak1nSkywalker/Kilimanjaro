@@ -19,27 +19,27 @@ namespace Kilimanjaro.Domain
         
         [Display(Name = "Ano")]
         public int Year { get; set; }
-
+        
         [Display(Name = "Peso")]
-        public float Weight { get; set; }
+        public decimal Weight { get; set; }
 
         [Display(Name = "Altura")]
-        public float Height { get; set; }
+        public decimal Height { get; set; }
         
         [Display(Name = "Largura")]
-        public float Width { get; set; }
+        public decimal Width { get; set; }
 
         [Display(Name = "Comprimento")]
-        public float Length { get; set; }
+        public decimal Length { get; set; }
         
         [Display(Name = "Altura")]
-        public float? UsefulAreaHeight { get; set; }
+        public decimal? UsefulAreaHeight { get; set; }
 
         [Display(Name = "Largura")]
-        public float? UsefulAreaWidth { get; set; }
+        public decimal? UsefulAreaWidth { get; set; }
 
         [Display(Name = "Comprimento")]
-        public float? UsefulAreaLength { get; set; }
+        public decimal? UsefulAreaLength { get; set; }
         
         [Display(Name = "Data de Criação")]
         public DateTime CreationDate { get; set; }

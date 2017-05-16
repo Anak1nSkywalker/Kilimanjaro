@@ -33,6 +33,8 @@ C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilim
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.Migrations.newField.resources
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.Migrations.newMigracion.resources
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.Migrations.migmig.resources
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.Migrations.Novatabelaveiculos.resources
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.Migrations.FloatToDecimal.resources
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositoryEF.csproj.GenerateResource.Cache
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.dll
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.RepositorioEF\obj\Debug\Kilimanjaro.RepositorioEF.pdb

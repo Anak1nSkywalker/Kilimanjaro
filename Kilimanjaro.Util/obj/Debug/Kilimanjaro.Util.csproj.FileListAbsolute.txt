@@ -22,6 +22,11 @@ C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilim
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Util\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Util\bin\Debug\Kilimanjaro.Dominio.pdb
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Util\bin\Debug\Kilimanjaro.Dominio.dll.config
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Util\bin\Debug\pt-br\System.Web.Helpers.resources.dll
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Util\bin\Debug\pt-br\System.Web.Razor.resources.dll
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Util\bin\Debug\pt-br\System.Web.WebPages.resources.dll
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Util\bin\Debug\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Util\bin\Debug\pt-br\System.Web.WebPages.Razor.resources.dll
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Util\obj\Debug\Kilimanjaro.Util.csprojResolveAssemblyReference.cache
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Util\obj\Debug\Kilimanjaro.Util.dll
 C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Util\obj\Debug\Kilimanjaro.Util.pdb
