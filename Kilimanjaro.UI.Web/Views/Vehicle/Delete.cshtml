@@ -1,0 +1,156 @@
+﻿@model Kilimanjaro.Domain.Vehicle
+
+@{
+    ViewBag.Title = "Excluir";
+}
+
+<h2>Excluir</h2>
+
+<h3>Tem certeza que deseja excluir este registro?</h3>
+<div>
+    <h4>Veículo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Identification)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Identification)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Chassis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Chassis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Height)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Width)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Width)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Length)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Length)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UsefulAreaHeight)
+        </dt>
+
+        @if (Model.UsefulAreaHeight != null)
+        {
+            <dd>
+                @Html.DisplayFor(model => model.UsefulAreaHeight)
+            </dd>
+        }
+        else
+        {
+            <dd>-</dd>
+        }
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UsefulAreaWidth)
+        </dt>
+
+        @if (Model.UsefulAreaWidth != null)
+        {
+            <dd>
+                @Html.DisplayFor(model => model.UsefulAreaWidth)
+            </dd>
+        }
+        else
+        {
+            <dd>-</dd>
+        }
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UsefulAreaLength)
+        </dt>
+
+        @if (Model.UsefulAreaLength != null)
+        {
+            <dd>
+                @Html.DisplayFor(model => model.UsefulAreaLength)
+            </dd>
+        }
+        else
+        {
+            <dd>-</dd>
+        }
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastChangeDate)
+        </dt>
+
+        @if (Model.LastChangeDate != null)
+        {
+            <dd>
+                @Html.DisplayFor(model => model.LastChangeDate)
+            </dd>
+        }
+        else
+        {
+            <dd>-</dd>
+        }
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Excluir" class="btn btn-default" onclick="return confirm('Tem certeza que deseja excluir o registro?');" /> |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    }
+</div>

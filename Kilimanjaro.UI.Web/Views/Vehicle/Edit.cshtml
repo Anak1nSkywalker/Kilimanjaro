@@ -36,44 +36,41 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Weight, "Peso", new { @class = "control-label col-md-2" })
             <div class="col-md-2">
-
-                @Html.EditorFor(model => model.Weight, new { htmlAttributes = new { @type = "number", @class = "form-control", @placeholder = "Peso", @required = true, @step = "0.01" }, })
+                @Html.TextBoxFor(model => model.Weight, new { @Value = Model.Weight, @type = "number", @class = "form-control", @placeholder = "Peso", @required = true, @step = "0.01" })
                 @Html.ValidationMessageFor(model => model.Weight)
-
             </div>
             @Html.LabelFor(model => model.Height, "Altura", new { @class = "control-label col-md-1" })
             <div class="col-md-2">
-                @Html.EditorFor(model => model.Height, new { @type = "number", @class = "form-control", @placeholder = "Altura", @required = true , @step = "0.01" })
+                @Html.TextBoxFor(model => model.Height, new { @Value = Model.Height, @type = "number", @class = "form-control", @placeholder = "Altura", @required = true , @step = "0.01" })
                 @Html.ValidationMessageFor(model => model.Height)
             </div>            
             @Html.LabelFor(model => model.Width, "Largura:", new { @class = "control-label col-md-1" })
             <div class="col-md-2">
-                @Html.EditorFor(model => model.Width, new { @type = "number", @class = "form-control", @placeholder = "Largura", @required = true, @step = "0.01" })
+                @Html.TextBoxFor(model => model.Width, new { @Value = Model.Width, @type = "number", @class = "form-control", @placeholder = "Largura", @required = true, @step = "0.01" })
                 @Html.ValidationMessageFor(model => model.Width)
             </div>            
         </div>
         <div class="form-group">
             @Html.LabelFor(model => model.Length, "Comprimento", new { @class = "control-label col-md-2" })
             <div class="col-md-2">
-                @Html.EditorFor(model => model.Length, new { @type = "number", @class = "form-control", @placeholder = "Comprimento", @required = true, @step = "0.01" })
+                @Html.TextBoxFor(model => model.Length, new { @Value = Model.Length, @type = "number", @class = "form-control", @placeholder = "Comprimento", @required = true, @step = "0.01" })
                 @Html.ValidationMessageFor(model => model.Length)
             </div>            
         </div>
         <div class="form-group">
             @Html.LabelFor(model => model.UsefulAreaHeight, "Area Útil Altura", new { @class = "control-label col-md-2" })
             <div class="col-md-2">
-                @Html.EditorFor(model => model.UsefulAreaHeight, new { @type = "number", @class = "form-control", @placeholder = "Area Útil Altura", @step = "0.01" })
+                @Html.TextBoxFor(model => model.UsefulAreaHeight, new { @Value = Model.UsefulAreaHeight, @type = "number", @class = "form-control", @placeholder = "Area Útil Altura", @step = "0.01" })
                 @Html.ValidationMessageFor(model => model.UsefulAreaHeight)
             </div>
-
             @Html.LabelFor(model => model.UsefulAreaWidth, "Area Útil Largura", new { @class = "control-label col-md-1" })
             <div class="col-md-2">
-                @Html.EditorFor(model => model.UsefulAreaWidth, new { @type = "number", @class = "form-control", @placeholder = "Area Útil Largura", @step = "0.01" })
+                @Html.TextBoxFor(model => model.UsefulAreaWidth, new { @Value = Model.UsefulAreaWidth, @type = "number", @class = "form-control", @placeholder = "Area Útil Largura", @step = "0.01" })
                 @Html.ValidationMessageFor(model => model.UsefulAreaWidth)
             </div>
             @Html.LabelFor(model => model.UsefulAreaLength, "Area Útil Comprimento", new { @class = "control-label col-md-1" })
             <div class="col-md-2">
-                @Html.EditorFor(model => model.UsefulAreaLength, new { @type = "number", @class = "form-control", @placeholder = "Area Útil Comprimento", @step = "0.01" })
+                @Html.TextBoxFor(model => model.UsefulAreaLength, new { @Value = Model.UsefulAreaLength, @type = "number", @class = "form-control", @placeholder = "Area Útil Comprimento", @step = "0.01" })
                 @Html.ValidationMessageFor(model => model.UsefulAreaLength)
             </div>
         </div>

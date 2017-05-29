@@ -1,0 +1,5 @@
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Web.API\bin\Debug\netcoreapp1.1\Kilimanjaro.Web.API.deps.json
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Web.API\bin\Debug\netcoreapp1.1\Kilimanjaro.Web.API.runtimeconfig.json
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Web.API\bin\Debug\netcoreapp1.1\Kilimanjaro.Web.API.runtimeconfig.dev.json
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Web.API\obj\Debug\netcoreapp1.1\Kilimanjaro.Web.API.csprojResolveAssemblyReference.cache
+C:\Users\jonathan.araujo\Documents\Visual Studio 2017\Projects\Kilimanjaro\Kilimanjaro.Web.API\obj\Debug\netcoreapp1.1\Kilimanjaro.Web.API.AssemblyInfo.cs
