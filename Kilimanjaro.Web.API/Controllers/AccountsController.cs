@@ -6,26 +6,55 @@ using Microsoft.AspNetCore.Mvc;
 using Kilimanjaro.Web.API.Model;
 using Kilimanjaro.Domain;
 using Kilimanjaro.Application;
+//using Kilimanjaro.Application.Model;
+using Kilimanjaro.RepositoryEF;
+using Kilimanjaro.RepositoryEF.Repository;
+using Kilimanjaro.Application.Model;
+using Kilimanjaro.Domain.Contract;
 
 namespace Kilimanjaro.Web.API.Controllers
 {
     [Route("api/[controller]")]
     public class AccountsController : Controller
     {
+        
         private readonly ApplicationCustomer applicationCustomer;
-
+        
         public AccountsController()
         {
+            //ConstructorApplication application = new ConstructorApplication();
+            //string obaOba = application.ApplicationCustomerEFNew();
+
+            string obaOba = ConstructorApplication.ApplicationCustomerEFNew();
+
             applicationCustomer = ConstructorApplication.ApplicationCustomerEF();
+
+            string teste = "OKOKOK";
+
+            string teste12 = "OKOKOK12";
+
+            //applicationCustomer = ConstructorApplication.ApplicationCustomerEF();
         }
 
+
+        /*
         [HttpGet]
-        public IEnumerable<Customer> Get()
+        public IEnumerable<string> Get()
         {
-            return applicationCustomer.ListAll();            
+            IEnumerable<string> m_oEnum = new List<string>() { "GIVE", "DIVE", "NIVE" };
+            return m_oEnum;
+        }
+        */
+
+        [HttpGet]
+        public IEnumerable<AccountTest> Get()
+        {
+            IEnumerable<AccountTest> list = applicationCustomer.ListAll();
+            return list;
         }
 
         /*
+
         [HttpGet]
         public IEnumerable<Account> Get()
         {
@@ -35,7 +64,7 @@ namespace Kilimanjaro.Web.API.Controllers
                 {
                     AccountNumber ="0001",
                     BankName ="Dummy Bank",
-                    CustomerAddress = new Address
+                    CustomerAddress = new Address117
                     {
                         Address1="address1",
                         Address2 ="address2",
@@ -48,7 +77,7 @@ namespace Kilimanjaro.Web.API.Controllers
                 },
                 new Account{ AccountNumber="0002",
                     BankName ="Dummy Bank",
-                    CustomerAddress = new Address
+                    CustomerAddress = new Address117
                     {
                         Address1="address3",
                         Address2 ="address4",
@@ -62,7 +91,7 @@ namespace Kilimanjaro.Web.API.Controllers
             };
         }
         */
-
+        
         [HttpGet("{acctNumber}")]
         public Account Get(string acctNumber)
         {

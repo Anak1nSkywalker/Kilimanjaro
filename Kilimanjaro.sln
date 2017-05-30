@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kilimanjaro.Web.API", "Kilimanjaro.Web.API\Kilimanjaro.Web.API.csproj", "{BFFC5FF0-15D7-4C31-9E2B-25841617C98E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.API", "Web.API\Web.API.csproj", "{60E16F53-1532-43A0-9785-CD6947766BA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{BFFC5FF0-15D7-4C31-9E2B-25841617C98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFFC5FF0-15D7-4C31-9E2B-25841617C98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFFC5FF0-15D7-4C31-9E2B-25841617C98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E16F53-1532-43A0-9785-CD6947766BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E16F53-1532-43A0-9785-CD6947766BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E16F53-1532-43A0-9785-CD6947766BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E16F53-1532-43A0-9785-CD6947766BA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

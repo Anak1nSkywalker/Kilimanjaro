@@ -7,8 +7,10 @@ using System.Linq;
 namespace Kilimanjaro.RepositoryEF
 {
     public class CustomerRepositoryEF : IRepository<Customer>
+    //public class CustomerRepositoryEF
     {
-        private readonly Context context;
+        //private readonly Context context;
+        public Context context;
 
         public CustomerRepositoryEF()
         {

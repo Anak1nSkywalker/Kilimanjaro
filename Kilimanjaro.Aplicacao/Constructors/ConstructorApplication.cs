@@ -1,5 +1,7 @@
 ﻿using Kilimanjaro.RepositoryEF;
 using Kilimanjaro.RepositoryEF.Repository;
+using Kilimanjaro.Domain;
+using Kilimanjaro.Domain.Contract;
 
 namespace Kilimanjaro.Application
 {
@@ -58,7 +60,12 @@ namespace Kilimanjaro.Application
         
         public static ApplicationCustomer ApplicationCustomerEF()
         {
-            return new ApplicationCustomer(new CustomerRepositoryEF());
+            return new ApplicationCustomer(new CustomerRepositoryEF());           
+        }
+
+        public static string ApplicationCustomerEFNew()
+        {
+            return "OBA OBA RATINHO";
         }
 
         public static ApplicationVehicle ApplicationVehicleEF()

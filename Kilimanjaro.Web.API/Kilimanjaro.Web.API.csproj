@@ -12,6 +12,7 @@
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
@@ -20,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Kilimanjaro.Aplicacao\Kilimanjaro.Application.csproj" />
     <ProjectReference Include="..\Kilimanjaro.Dominio\Kilimanjaro.Domain.csproj" />
+    <ProjectReference Include="..\Kilimanjaro.RepositorioEF\Kilimanjaro.RepositoryEF.csproj" />
   </ItemGroup>
 
 </Project>

@@ -11,7 +11,7 @@ namespace Kilimanjaro.Web.API.Model
         public string CustomerId { get; set; }
         public string BankName { get; set; }
         public string CustomerName { get; set; }
-        public Address CustomerAddress
+        public Address117 CustomerAddress
         {
             get; set;
         }
